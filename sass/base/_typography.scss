@@ -43,13 +43,16 @@ body {
     letter-spacing: 2px;
     color: transparent;
     transition: all 0.2s;
+    margin-bottom: 5rem;
     background-clip: text;
+    -webkit-background-clip: text;
 
     &:hover {
         transform: skewY(2deg) skewX(15deg);
         text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
     }
 }
+
 
 .heading-tertiary {
     font-size: $default-font-size;
